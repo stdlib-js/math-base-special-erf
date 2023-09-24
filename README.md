@@ -63,7 +63,7 @@ The [error function][error-function] is defined as
 ## Usage
 
 ```javascript
-import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@deno/mod.js';
+import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.1.0-deno/mod.js';
 ```
 
 #### erf( x )
@@ -104,7 +104,7 @@ var y = erf( -0.0 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@deno/mod.js';
+import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.1.0-deno/mod.js';
 
 var x = linspace( -10.0, 10.0, 100 );
 
