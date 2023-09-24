@@ -63,6 +63,11 @@ The [error function][error-function] is defined as
 ## Usage
 
 ```javascript
+import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-erf/tags). For example,
+
+```javascript
 import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.1.0-deno/mod.js';
 ```
 
@@ -104,7 +109,7 @@ var y = erf( -0.0 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.1.0-deno/mod.js';
+import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@deno/mod.js';
 
 var x = linspace( -10.0, 10.0, 100 );
 
