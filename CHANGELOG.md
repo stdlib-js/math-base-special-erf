@@ -2,6 +2,53 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-10-02)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`3e201d7`](https://github.com/stdlib-js/stdlib/commit/3e201d779fa5844dd5808418f103f37d1a905d61) - update function alias and add WebAssembly configuration
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`24fadbf`](https://github.com/stdlib-js/stdlib/commit/24fadbf27f7a01624648ed5bea5cce504b3f65d1) - **bench:** fix runner _(by Athan Reines)_
+-   [`8f0f3b6`](https://github.com/stdlib-js/stdlib/commit/8f0f3b65ddcd28963d55d7956a22d801f59155fa) - **bench:** use SpecialFunctions package _(by Athan Reines)_
+-   [`c94a8b2`](https://github.com/stdlib-js/stdlib/commit/c94a8b2eee5d00c623ecccbb0aeef4daefb4ed06) - **bench:** update value ranges _(by Athan Reines)_
+-   [`3e201d7`](https://github.com/stdlib-js/stdlib/commit/3e201d779fa5844dd5808418f103f37d1a905d61) - **fix:** update function alias and add WebAssembly configuration _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.4">
 
 ## 0.2.4 (2024-07-28)
