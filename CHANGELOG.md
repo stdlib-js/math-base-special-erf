@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-01)
+## Unreleased (2025-10-02)
 
 <section class="bug-fixes">
 
@@ -20,6 +20,7 @@
 
 ### Reverts
 
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - undo commits adding tests for full code coverage
 -   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
 
 </section>
@@ -32,6 +33,7 @@
 
 <details>
 
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - **revert:** undo commits adding tests for full code coverage _(by Philipp Burckhardt)_
 -   [`3c033a4`](https://github.com/stdlib-js/stdlib/commit/3c033a4ba718f4383126edcdf6fc974950d0ead8) - **test:** add tests to achieve full coverage in `erf`, `erfc`, `erfcinv`, `erfcx`, and `erfinv` _(by Philipp Burckhardt)_
 -   [`86edcb5`](https://github.com/stdlib-js/stdlib/commit/86edcb559be453cb7d1156076bfc940a37a39af0) - **chore:** add structured package data for packages in `math/base/special` [(#8054)](https://github.com/stdlib-js/stdlib/pull/8054) _(by Gunj Joshi, Athan Reines)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
