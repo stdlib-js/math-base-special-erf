@@ -63,7 +63,7 @@ The [error function][error-function] is defined as
 ## Usage
 
 ```javascript
-import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@deno/mod.js';
+import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.2.5-deno/mod.js';
 ```
 
 #### erf( x )
@@ -105,7 +105,7 @@ var y = erf( -0.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@deno/mod.js';
+import erf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.2.5-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
