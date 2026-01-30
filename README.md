@@ -65,7 +65,7 @@ The [error function][error-function] is defined as
 To use in Observable,
 
 ```javascript
-erf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@umd/browser.js' )
+erf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.2.5-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var erf = require( 'path/to/vendor/umd/math-base-special-erf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.2.5-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -132,7 +132,7 @@ var y = erf( -0.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erf@v0.2.5-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
